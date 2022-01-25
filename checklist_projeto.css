@@ -1,0 +1,23 @@
+body {
+    margin = 0;
+}
+
+.corpo_principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.lista_principal {
+    background: linear-gradient(#87cefa, #ff6347);
+    font-family: 'Mulish', sans-serif;
+    padding: 1rem;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+.titulo_principal {
+    
+}
