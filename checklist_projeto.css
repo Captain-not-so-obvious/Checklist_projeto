@@ -1,5 +1,5 @@
 body {
-    margin = 0;
+    margin: 0;
 }
 
 .corpo_principal {
@@ -11,7 +11,7 @@ body {
 }
 
 .lista_principal {
-    background: linear-gradient(#87cefa, #ff6347);
+    background: #000000;
     font-family: 'Mulish', sans-serif;
     padding: 1rem;
     min-width: 400px;
@@ -19,5 +19,47 @@ body {
 }
 
 .titulo_principal {
-    
+    border-bottom: 1px solid #7FFF00;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    color:#7FFF00;
 }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.input_principal, .btn_principal {
+    border-radius: 0;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+}
+
+.input_principal {
+    outline: none;
+    background-color:rgb(255, 251, 251);
+    border-color: #7FFF00;
+}
+
+.btn_principal {
+  border: 1px;
+  background: #7FFF00;
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 0.25rem;  
+}
+
+.btn_principal:hover {
+    color: #000000;
+    background: #FFFF00;
+    transition: 1.5s;
+}
+
+.lista_principal {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
