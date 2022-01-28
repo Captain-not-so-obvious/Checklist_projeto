@@ -20,6 +20,7 @@ body {
 
 .titulo_principal {
     border-bottom: 1px solid #7FFF00;
+    text-align: center;
     font-size: 1.5rem;
     font-family: 'Mulish', sans-serif;
     color:#7FFF00;
@@ -63,3 +64,37 @@ body {
     width: 100%;
 }
 
+.nova_tarefa {
+    background-color: #000000;
+    color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0,5rem;
+    padding: 1rem 3rem;
+}
+
+.btn_check, .btn_deleta {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 0 8px #000000;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nova_tarefa.done .btn_check {
+    background-color: darkgrey;
+    color:rgb(255, 251, 251);
+}
+
+.nova_tarefa.done, .check-icon {
+    background-color: #000000;
+}
+
+.conteudo {
+    margin: 0;
+}
+
+.nova_tarefa.done .conteudo {
+    text-decoration: line-through;
+}
